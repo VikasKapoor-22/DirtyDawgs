@@ -539,10 +539,22 @@ button:not(.collapsed) {
     .border-radius-md {
         border-radius: 25px;
     }
+
+    .border-radius-md-input {
+        border-radius: 25px;
+    }
 }
 
 @media only screen and (min-width:768px) {
     .border-radius-md {
         border-radius: 0px 25px 25px 0px;
+    }
+
+    .border-radius-md-input {
+        border-radius: 25px 0px 0px 25px;
+    }
+
+    .fs-md-sm {
+        font-size: var(--fs-sm);
     }
 }
